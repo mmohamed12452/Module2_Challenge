@@ -1,0 +1,57 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+
+/* beginning of header styles */
+header{
+height: 8vh;
+background-color: navy;
+color: white;
+}
+
+/*end of header styles*/
+
+section{
+    height: 50vh;
+}
+
+/*beginning of main section styles*/
+#main
+{
+    background-color: aqua;
+}
+/*end of main section styles*/
+#AboutMe{
+    background-color:orchid;;
+}
+/*beginning of work section styles*/
+/*end of work section styles*/
+#Work{
+    background-color: coral;
+}
+/*beginning of contact section styles*/
+#Contact
+{
+    background-color: cadetblue;
+}
+/*end of contact section styles*/
+
+/*Beginning of footer section*/
+footer
+
+{
+    background-color:black;
+
+    color: white;
+    height: 20vh;
+}
+
+
+
+
+
+
+
