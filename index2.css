@@ -36,16 +36,17 @@ font-size: 30px;
 
 section{
     height: 75vh;
-    display: flex;
+   
 }
 
 /*beginning of main section styles*/
 #main
 {
     background-image: url(./damian-lillard-series-winner-thunderjpg.jpg);
-     width: 100%;
+    width: 100%;
     justify-content: center;
     align-items: center;
+    display: flex;
 }
 
 #main p{
@@ -56,10 +57,35 @@ section{
 }
 
 /*end of main section styles*/
-#AboutMe{
-   
-background-color:orchid;;
+#About_Me
+{
+background-color:orchid;
+padding: 60px;
 }
+#profile{
+    width:100%;
+}
+#profile_image
+{
+   float:left;
+    width:20%;
+    height:60%;
+}
+#profile_image img
+{
+   width:100%;
+   height:100%;
+ 
+}
+
+#profile_description{
+    width: 70%;
+    float: right;
+
+}
+
+
+
 /*beginning of work section styles*/
 /*end of work section styles*/
 #Work{
