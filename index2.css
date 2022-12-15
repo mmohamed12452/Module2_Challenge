@@ -44,10 +44,11 @@ section{
 #main
 {
     background-image: url(./damian-lillard-series-winner-thunderjpg.jpg);
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    display: flex;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    
 }
 
 #main p{
