@@ -36,7 +36,8 @@ font-size: 30px;
 
 section{
     height: 75vh;
-   
+    padding: 60px;
+
 }
 
 /*beginning of main section styles*/
@@ -60,7 +61,6 @@ section{
 #About_Me
 {
 background-color:orchid;
-padding: 60px;
 }
 #profile{
     width:100%;
@@ -91,6 +91,10 @@ padding: 60px;
 #Work{
     background-color: coral;
 }
+table, th,td
+{
+  border: 1px solid red;
+}
 /*beginning of contact section styles*/
 #Contact
 {
@@ -102,6 +106,9 @@ padding: 60px;
 footer
 
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color:black;
 
     color: white;
