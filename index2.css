@@ -9,23 +9,56 @@
 header{
 height: 8vh;
 background-color: navy;
-color: white;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+header nav ul li
+{
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+header nav ul li:hover
+{
+  background-color: indigo;
+}
+
+
+header nav ul li a{
+color:white;
+text-decoration: none;
+font-size: 30px;
+    
 }
 
 /*end of header styles*/
 
 section{
-    height: 50vh;
+    height: 75vh;
+    display: flex;
 }
 
 /*beginning of main section styles*/
 #main
 {
-    background-color: aqua;
+    background-image: url(./damian-lillard-series-winner-thunderjpg.jpg);
+     width: 100%;
+    justify-content: center;
+    align-items: center;
 }
+
+#main p{
+    color: blue;
+    font-size: 200px;
+    font-weight: bolder;
+    
+}
+
 /*end of main section styles*/
 #AboutMe{
-    background-color:orchid;;
+   
+background-color:orchid;;
 }
 /*beginning of work section styles*/
 /*end of work section styles*/
