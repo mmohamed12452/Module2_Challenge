@@ -43,7 +43,7 @@ section{
 /*beginning of main section styles*/
 #main
 {
-    background-image: url(./damian-lillard-series-winner-thunderjpg.jpg);
+    background-image: url(./images/damian-lillard-series-winner-thunderjpg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,14 +88,40 @@ background-color:orchid;
 
 
 /*beginning of work section styles*/
+
 /*end of work section styles*/
-#Work{
+#Work
+{
     background-color: coral;
 }
-table, th,td
+.Project
 {
-  border: 1px solid red;
+   width:80%;
+   height:30vh;
+   background-color: transparent;
+   box-shadow: 13px 12px  20px white;
+   margin-left:auto;
+   margin-right:auto;
+   padding:10px;
+   display: flex;
+   
 }
+.Project:hover
+{
+    transform: scale(1.1);
+}
+.Project img
+{
+    height:100%;
+    width:30%;
+}
+.Project div
+{
+    width:68%;
+    padding: 30px;
+}
+
+
 /*beginning of contact section styles*/
 #Contact
 {
@@ -105,7 +131,6 @@ table, th,td
 
 /*Beginning of footer section*/
 footer
-
 {
     display: flex;
     align-items: center;
