@@ -93,6 +93,7 @@ background-color:orchid;
 #Work
 {
     background-color: coral;
+    height: auto !important;
 }
 .Project
 {
@@ -104,6 +105,8 @@ background-color:orchid;
    margin-right:auto;
    padding:10px;
    display: flex;
+   margin-top: 20px;
+   margin-bottom: 20px;
    
 }
 .Project:hover
